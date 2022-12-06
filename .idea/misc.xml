@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bgpopup.xml" value="0.238" />
+        <entry key="app/src/main/res/drawable/popupbg.xml" value="0.238" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2868301391601562" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2001373291015625" />
+        <entry key="app/src/main/res/layout/popup.xml" value="0.11847991943359376" />
+        <entry key="app/src/main/res/layout/popupresult.xml" value="0.2267242431640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

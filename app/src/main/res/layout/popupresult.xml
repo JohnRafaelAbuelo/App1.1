@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    android:background="#DDCDBD"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="152dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/popupbg"
+        android:paddingTop="25dp"
+        android:visibility="visible"
+        tools:srcCompat="@drawable/beefshawarma"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Enjoy your food!"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="You made a Beef Shawarma!"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:paddingBottom="25dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    android:background="#DDCDBD"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/popupbg"
+        android:paddingTop="25dp"
+        android:visibility="visible"
+        tools:srcCompat="@drawable/popupimage"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="INSTRUCTIONS:"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="This application is used for\ncreating a sandwich.\nFirst, choose your bread of choice.\nThen, select your filling/meat.\n\n\nWhen you're ready, click confirm and enjoy!"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:paddingBottom="25dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
