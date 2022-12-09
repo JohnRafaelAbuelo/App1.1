@@ -4,66 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/popup"
     android:layout_width="300dp"
-    android:layout_height="400dp"
+    android:layout_height="300dp"
     android:layout_gravity="center"
-    android:layout_marginLeft="50dp"
-    android:layout_marginTop="160dp"
-    android:layout_marginRight="50dp"
-    android:layout_marginBottom="150dp"
+    android:layout_marginTop="300dp"
+    android:layout_marginBottom="300dp"
     android:background="#DDCDBD"
-
 
     >
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        app:srcCompat="@drawable/popupimage"></ImageView>
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/cheesebuns"
+        ></ImageView>
 
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:fontFamily="@font/allerta"
 
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
-        android:fontFamily="@font/allerta"
-        android:text="INSTRUCTIONS:"
+        android:text="Enjoy your food!"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView8"
+        android:layout_below="@id/textView10"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:fontFamily="serif-monospace"
         android:paddingBottom="25dp"
-        android:text="This application is used for\ncreating a sandwich.\nFirst, choose your bread of choice.\nThen, select your filling/meat.\n\n\nWhen you're done choosing, click confirm and enjoy!"
+        android:text="You made a Cheese Bun!"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textStyle="italic" />
 
     <Button
-        android:id="@+id/returnbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView9"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="#9E7E62"
-        android:soundEffectsEnabled="true"
-        android:text="Return"
-
         app:strokeColor="#EAD5C6"
-        app:strokeWidth="2dp"></Button>
+        app:strokeWidth="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView11"
+        android:backgroundTint="#9E7E62"
+        android:id="@+id/returnbtn2"
+
+        android:soundEffectsEnabled="true"
+        android:text="Return"></Button>
 
 
 </RelativeLayout>

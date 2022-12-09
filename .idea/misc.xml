@@ -3,12 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/beefshawarma.xml" value="0.2245" />
         <entry key="app/src/main/res/drawable/bgpopup.xml" value="0.238" />
         <entry key="app/src/main/res/drawable/popupbg.xml" value="0.238" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2868301391601562" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25561065673828126" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2001373291015625" />
-        <entry key="app/src/main/res/layout/popup.xml" value="0.11847991943359376" />
-        <entry key="app/src/main/res/layout/popupresult.xml" value="0.2267242431640625" />
+        <entry key="app/src/main/res/layout/beefburger.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/beefshawarma.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/beeftacos.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/cheesebuns.xml" value="0.24871215820312506" />
+        <entry key="app/src/main/res/layout/chickenburger.xml" value="0.14835662841796876" />
+        <entry key="app/src/main/res/layout/chickengyros.xml" value="0.16582946777343752" />
+        <entry key="app/src/main/res/layout/chickenwrap.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/pitagrilledcheese.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/popup.xml" value="0.2998382568359375" />
+        <entry key="app/src/main/res/layout/popupresult.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/quesadilla.xml" value="0.1891937255859375" />
       </map>
     </option>
   </component>
